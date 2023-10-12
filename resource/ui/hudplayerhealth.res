@@ -5,12 +5,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"r100"		[$WIN32]
-		"xpos_minmode"	"100"		[$WIN32]
-		"ypos"			"50"	[$WIN32]
-		"ypos_minmode"	"50"	[$WIN32]
-		"xpos"			"32"	[$X360]
-		"ypos"			"r144"	[$X360]
+		"xpos"			"200"		[$WIN32]
+		"ypos"			"r220"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"120"
@@ -24,28 +20,27 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"75"
-		"xpos_minmode"	"60"
-		"ypos"			"35"
+		"xpos"			"50"
+		"ypos"			"50"
 		"zpos"			"4"
-		"wide"			"51"
-		"tall"			"51"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
+		"image"			"../hud/health_fg"
 	}		
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"73"
-		"xpos_minmode"	"58"
-		"ypos"			"33"
+		"xpos"			"490"
+		"ypos"			"49"
 		"zpos"			"3"
-		"wide"			"55"
-		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"26"
+		"tall"			"26"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
@@ -53,59 +48,112 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	[$WIN32]
-		"xpos_minmode"	"65"	[$WIN32]
-		"xpos"			"83"	[$X360]
-		"ypos"			"33"	[$WIN32]
-		"ypos_minmode"	"40"	[$WIN32]
-		"ypos"			"43"	[$X360]
+		"xpos"			"70"	[$WIN32]
+		"ypos"			"30"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"55"	[$WIN32]
-		"wide_minmode"	"40"	[$WIN32]
-		"wide"			"35"	[$X360]
-		"tall"			"55"	[$WIN32]
-		"tall_minmode"	"40"	[$WIN32]
-		"tall"			"35"	[$X360]
+		"wide"			"63"	[$WIN32]
+		"tall"			"63"	[$WIN32]
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
+	"PlayerStatusHealthBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthBG"
+		"xpos"			"65"
+		"ypos"			"33"
+		"zpos"			"3"
+		"wide"			"72"
+		"tall"			"72"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../hud/health_background"
+		"scaleImage"	"1"	
+	}	
+	"HealthLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"HealthLabel"
+		"font"			"IosevkaCorax_Extrabold_16"
+		"fgcolor"		"White"
+		"xpos"			"52"
+		"ypos"			"18"
+		"zpos"			"5"
+		"wide"			"100"
+		"tall"			"48"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"HULL"
+		
+	}	
+	"HealthLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"HealthLabelShadow"
+		"font"			"IosevkaCorax_Extrabold_16"
+		"fgcolor"		"0 0 0 255"
+		"xpos"			"53"
+		"ypos"			"19"
+		"zpos"			"5"
+		"wide"			"100"
+		"tall"			"48"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"HULL"
+		
+	}	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"76"
-		"xpos_minmode"	"61"
-		"ypos"			"52"	[$WIN32]
-		"ypos"			"55"	[$X360]
+		"xpos"			"66"
+		"ypos"			"39"	[$WIN32]
 		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"18"
+		"wide"			"70"
+		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"HudClassHealth"
-		"fgcolor"		"TanDark"
+		"font"			"IosevkaCorax_Extrabold_48"
+		"fgcolor"		"White"
+	}
+	"PlayerStatusHealthValueBG"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValue"
+		"xpos"			"67"
+		"ypos"			"40"	[$WIN32]
+		"zpos"			"5"
+		"wide"			"70"
+		"tall"			"48"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"IosevkaCorax_Extrabold_48"
+		"fgcolor"		"0 0 0 255"
 	}
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"76"
+		"xpos"			"66"
 		"xpos_minmode"	"61"
-		"ypos"			"20"	[$WIN32]
-		"ypos"			"55"	[$X360]
+		"ypos"			"60"	[$WIN32]
 		"zpos"			"6"
-		"wide"			"50"
-		"tall"			"18"
+		"wide"			"70"
+		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
-		"font"			"DefaultSmall"
-		"fgcolor"		"TanDark"
+		"font"			"IosevkaCorax_Extrabold_20"
+		"fgcolor"		"0 0 0 255"
 	}
 	"PlayerStatusBleedImage"
 	{

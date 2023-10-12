@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "hud/ammo-icon"
+	"$translucent" 1
+}
