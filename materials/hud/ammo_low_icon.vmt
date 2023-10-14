@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/ammo-low-icon"
+	"$translucent" 1
+}

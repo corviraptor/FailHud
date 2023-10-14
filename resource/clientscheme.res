@@ -212,7 +212,10 @@ Scheme
 		// custom colors
 		"CherryRed" "255 0 102 255"
 		"DarkCherryRed" "179 0 71 255"
+<<<<<<< HEAD
 		"BrightMalachite" "0 255 180 255"
+=======
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -5787,6 +5790,7 @@ Scheme
 				}
 			}
 		}
+<<<<<<< HEAD
 		
 		GlassBorder
 		{
@@ -6027,6 +6031,8 @@ Scheme
 				}
 			}
 		}
+=======
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 	}
 
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////

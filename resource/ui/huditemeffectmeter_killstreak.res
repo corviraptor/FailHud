@@ -37,8 +37,13 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
+<<<<<<< HEAD
 		"xpos"					"1"
 		"ypos"					"1"
+=======
+		"xpos"					"0"
+		"ypos"					"0"
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"16"
@@ -50,7 +55,11 @@
 		"labelText"				"#TF_KillStreak"
 		"textAlignment"			"center"
 		"font"					"IosevkaCorax_Extrabold_16"
+<<<<<<< HEAD
 		"fgcolor"				"White"
+=======
+		"fgcolor"		"White"
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		
 	}
 	
@@ -58,8 +67,13 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabelShadow"
+<<<<<<< HEAD
 		"xpos"					"2"
 		"ypos"					"2"
+=======
+		"xpos"					"1"
+		"ypos"					"1"
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"16"
@@ -80,8 +94,15 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
+<<<<<<< HEAD
 		"xpos"					"26"
 		"ypos"					"23"
+=======
+		"xpos"					"25"
+		"ypos"					"23"
+		"ypos_minmode"			"0"
+		"xpos_minmode"			"0"
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		"zpos"					"2"
 		"wide"					"40"
 		"wide_minmode"			"50"
@@ -99,7 +120,11 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
+<<<<<<< HEAD
 		"xpos"					"1"
+=======
+		"xpos"					"0"
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		"ypos"					"10"
 		"zpos"					"2"
 		"wide"					"40"
@@ -120,7 +145,11 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountShadow"
+<<<<<<< HEAD
 		"xpos"					"2"
+=======
+		"xpos"					"1"
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		"ypos"					"11"
 		"zpos"					"2"
 		"wide"					"40"
@@ -136,6 +165,7 @@
 		"font"					"IosevkaCorax_Extrabold_36"
 		"fgcolor"		"0 0 0 255"
 	}
+<<<<<<< HEAD
 
 	"KillstreakBG"
 	{
@@ -172,4 +202,6 @@
 		"border" 		"GlassBorderShadow"
 		"paintborder" 	"1"
 	}
+=======
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 }

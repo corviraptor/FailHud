@@ -6,7 +6,11 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"200"		[$WIN32]
+<<<<<<< HEAD
 		"ypos"			"0"	[$WIN32]
+=======
+		"ypos"			"r220"	[$WIN32]
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"120"
@@ -20,11 +24,19 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
+<<<<<<< HEAD
 		"xpos"			"255"
 		"ypos"			"34"
 		"zpos"			"4"
 		"wide"			"8"
 		"tall"			"8"
+=======
+		"xpos"			"50"
+		"ypos"			"50"
+		"zpos"			"4"
+		"wide"			"24"
+		"tall"			"24"
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		"visible"		"0"
 		"enabled"		"0"
 		"scaleImage"	"1"	
@@ -34,11 +46,19 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
+<<<<<<< HEAD
 		"xpos"			"255"
 		"ypos"			"33"
 		"zpos"			"3"
 		"wide"			"10"
 		"tall"			"10"
+=======
+		"xpos"			"490"
+		"ypos"			"49"
+		"zpos"			"3"
+		"wide"			"26"
+		"tall"			"26"
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_bg"
@@ -48,7 +68,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
+<<<<<<< HEAD
 		"xpos"			"555"	[$WIN32]
+=======
+		"xpos"			"70"	[$WIN32]
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		"ypos"			"30"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"63"	[$WIN32]
@@ -58,6 +82,7 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
+<<<<<<< HEAD
 	"HealthLowLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -92,10 +117,13 @@
 		"textAlignment"	"center"	
 		"labelText"		"SHIELDED"
 	}	
+=======
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 	"PlayerStatusHealthBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBG"
+<<<<<<< HEAD
 		"xpos"			"70"
 		"ypos"			"44"
 		"zpos"			"3"
@@ -124,6 +152,17 @@
 
 		"border" 		"GlassBorderShadow"
 		"paintborder" 	"1"
+=======
+		"xpos"			"65"
+		"ypos"			"33"
+		"zpos"			"3"
+		"wide"			"72"
+		"tall"			"72"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../hud/health_background"
+		"scaleImage"	"1"	
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 	}	
 	"HealthLabel"
 	{
@@ -131,14 +170,23 @@
 		"fieldName"		"HealthLabel"
 		"font"			"IosevkaCorax_Extrabold_16"
 		"fgcolor"		"White"
+<<<<<<< HEAD
 		"xpos"			"71"
 		"ypos"			"14"
+=======
+		"xpos"			"52"
+		"ypos"			"18"
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
+<<<<<<< HEAD
 		"textAlignment"	"left"	
+=======
+		"textAlignment"	"center"	
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		"labelText"		"HULL"
 		
 	}	
@@ -148,14 +196,23 @@
 		"fieldName"		"HealthLabelShadow"
 		"font"			"IosevkaCorax_Extrabold_16"
 		"fgcolor"		"0 0 0 255"
+<<<<<<< HEAD
 		"xpos"			"72"
 		"ypos"			"15"
+=======
+		"xpos"			"53"
+		"ypos"			"19"
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
+<<<<<<< HEAD
 		"textAlignment"	"left"	
+=======
+		"textAlignment"	"center"	
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		"labelText"		"HULL"
 		
 	}	
@@ -163,7 +220,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
+<<<<<<< HEAD
 		"xpos"			"67"
+=======
+		"xpos"			"66"
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		"ypos"			"39"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"70"
@@ -179,7 +240,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
+<<<<<<< HEAD
 		"xpos"			"68"
+=======
+		"xpos"			"67"
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		"ypos"			"40"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"70"
@@ -195,16 +260,27 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
+<<<<<<< HEAD
 		"xpos"			"555"
 		"ypos"			"63"	[$WIN32]
+=======
+		"xpos"			"66"
+		"xpos_minmode"	"61"
+		"ypos"			"60"	[$WIN32]
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		"zpos"			"6"
 		"wide"			"70"
 		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
+<<<<<<< HEAD
 		"textAlignment"	"right"	
 		"font"			"IosevkaCorax_Extrabold_16"
+=======
+		"textAlignment"	"center"	
+		"font"			"IosevkaCorax_Extrabold_20"
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		"fgcolor"		"0 0 0 255"
 	}
 	"PlayerStatusBleedImage"

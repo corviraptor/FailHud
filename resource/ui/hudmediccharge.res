@@ -85,6 +85,7 @@
 		"font"			"IosevkaCorax_Extrabold_36"
 		"fgcolor"		"White"
 	}
+<<<<<<< HEAD
 
 	"UberBG"
 	{
@@ -119,13 +120,41 @@
 
 		"border" 		"GlassBorderShadow"
 		"paintborder" 	"1"
+=======
+	
+	"ChargeLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ChargeLabel"
+		"xpos"			"118"
+		"ypos"			"26"
+		"zpos"			"2"
+		"wide"			"90"
+		"tall"			"36"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_UberchargeMinHUD"
+		"labelText_minmode"		"#TF_UberchargeMinHUD"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"IosevkaCorax_Extrabold_36"
+		"fgcolor"		"0 0 0 255"
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 	}
 
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
+<<<<<<< HEAD
 		"xpos"			"145"
+=======
+		"xpos"			"117"
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		"ypos"			"25"
 		"zpos"			"2"
 		"wide"			"90"
@@ -142,18 +171,51 @@
 		"font"			"IosevkaCorax_Extrabold_36"
 		"fgcolor"		"White"
 	}
+<<<<<<< HEAD
+=======
+
+	"IndividualChargesLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"IndividualChargesLabel"
+		"xpos"			"118"
+		"ypos"			"26"
+		"zpos"			"2"
+		"wide"			"90"
+		"tall"			"36"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_IndividualUberchargesMinHUD"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"IosevkaCorax_Extrabold_36"
+		"fgcolor"		"White"
+	}
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 	
 	"ChargeMeter"
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
+<<<<<<< HEAD
 		"xpos"			"48"
+=======
+		"xpos"			"30"
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		"xpos_minmode"			"10"
 		"ypos"			"44"
 		"ypos_minmode"			"23"
 		"zpos"			"2"
+<<<<<<< HEAD
 		"wide"			"68"
+=======
+		"wide"			"86"
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		"tall"			"8"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -171,10 +233,17 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
 		"font"			"Default"
+<<<<<<< HEAD
 		"xpos"			"48"
 		"ypos"			"44"
 		"zpos"			"2"
 		"wide"			"20"
+=======
+		"xpos"			"30"
+		"ypos"			"44"
+		"zpos"			"2"
+		"wide"			"19"
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		"tall"			"8"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -191,10 +260,17 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
 		"font"			"Default"
+<<<<<<< HEAD
 		"xpos"			"72"
 		"ypos"			"44"
 		"zpos"			"2"
 		"wide"			"20"
+=======
+		"xpos"			"52"
+		"ypos"			"44"
+		"zpos"			"2"
+		"wide"			"19"
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		"tall"			"8"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -211,10 +287,17 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
+<<<<<<< HEAD
 		"xpos"			"96"
 		"ypos"			"44"
 		"zpos"			"2"
 		"wide"			"20"
+=======
+		"xpos"			"74"
+		"ypos"			"44"
+		"zpos"			"2"
+		"wide"			"19"
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		"tall"			"8"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -231,10 +314,17 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
+<<<<<<< HEAD
 		"xpos"			"120"
 		"ypos"			"44"
 		"zpos"			"2"
 		"wide"			"20"
+=======
+		"xpos"			"96"
+		"ypos"			"44"
+		"zpos"			"2"
+		"wide"			"19"
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		"tall"			"8"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -250,9 +340,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HealthClusterIcon"
+<<<<<<< HEAD
 		"xpos"			"555"
 		"ypos"			"22"
 		"zpos"			"0"
+=======
+		"xpos"			"16"
+		"ypos"			"22"
+>>>>>>> 372e9c149fd523766391f2b9d3ce88d47fed4399
 		"wide"			"36"
 		"tall"			"36"
 		"visible"		"1"
